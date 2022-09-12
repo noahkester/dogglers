@@ -16,6 +16,7 @@
 package com.example.dogglers.data
 
 import com.example.dogglers.R
+import com.example.dogglers.model.Boxer
 import com.example.dogglers.model.Dog
 
 /**
@@ -23,6 +24,38 @@ import com.example.dogglers.model.Dog
  */
 object DataSource {
 
+    val boxer: List<Boxer> = listOf(
+        Boxer(
+            R.drawable.MikeTyson,
+            "Mike Tyson",
+            "Heavyweight",
+            "Peek-a-boo"
+        ),
+        Boxer(
+            R.drawable.Muhammad,
+            "Muhammed Ali",
+            "Heavyweight",
+            "Speed and Defensive"
+        ),
+        Boxer(
+            R.drawable.bella,
+            "Floyd Mayweather",
+            "Lightweight",
+            "Philly Shell"
+        ),
+        Boxer(
+            R.drawable.bella,
+            "Manny Pacquiao",
+            "Lightweight",
+            "Southpaw"
+        ),
+        Boxer(
+            R.drawable.bella,
+            "Sugar Ray Robinson",
+            "Middleweight",
+            "Fast jabs"
+        ),
+    )
     val dogs: List<Dog> = listOf(
         Dog(
             R.drawable.tzeitel,
