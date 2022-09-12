@@ -4,20 +4,41 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class GridListItemBinding implements ViewBinding {
   @NonNull
   private final MaterialCardView rootView;
 
-  private GridListItemBinding(@NonNull MaterialCardView rootView) {
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView3;
+
+  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull ImageView imageView2,
+      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3) {
     this.rootView = rootView;
+    this.imageView2 = imageView2;
+    this.textView = textView;
+    this.textView2 = textView2;
+    this.textView3 = textView3;
   }
 
   @Override
@@ -43,10 +64,38 @@ public final class GridListItemBinding implements ViewBinding {
 
   @NonNull
   public static GridListItemBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
 
-    return new GridListItemBinding((MaterialCardView) rootView);
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      return new GridListItemBinding((MaterialCardView) rootView, imageView2, textView, textView2,
+          textView3);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

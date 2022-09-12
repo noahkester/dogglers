@@ -2496,6 +2496,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mike_tyson
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2506,6 +2507,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
+drawable muhammad
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -2624,6 +2626,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id boxerImage
+id boxerName
+id boxerType
+id boxerWeight
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2757,6 +2763,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id immediateStop
 id included
 id info
@@ -2975,6 +2983,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3258,6 +3269,9 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string boxerName
+string boxerType
+string boxerWeight
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

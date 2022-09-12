@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.dogglers.app-merged_res-29:/drawable_mike_tyson.jpg.flat",
+        "source": "com.example.dogglers.app-main-31:/drawable/mike_tyson.jpg"
+    },
+    {
         "merged": "com.example.dogglers.app-merged_res-29:/drawable_frankie.jpg.flat",
         "source": "com.example.dogglers.app-main-31:/drawable/frankie.jpg"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "com.example.dogglers.app-merged_res-29:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.example.dogglers.app-main-31:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.dogglers.app-merged_res-29:/drawable_muhammad.png.flat",
+        "source": "com.example.dogglers.app-main-31:/drawable/muhammad.png"
     },
     {
         "merged": "com.example.dogglers.app-merged_res-29:/drawable_nox.jpg.flat",

@@ -26,13 +26,13 @@ object DataSource {
 
     val boxer: List<Boxer> = listOf(
         Boxer(
-            R.drawable.MikeTyson,
+            R.drawable.mike_tyson,
             "Mike Tyson",
             "Heavyweight",
             "Peek-a-boo"
         ),
         Boxer(
-            R.drawable.Muhammad,
+            R.drawable.muhammad,
             "Muhammed Ali",
             "Heavyweight",
             "Speed and Defensive"
